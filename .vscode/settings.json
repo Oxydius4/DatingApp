@@ -3,5 +3,6 @@
     "prettier.useTabs": true,
     "prettier.tslintIntegration": true,
     "prettier.jsxSingleQuote": true,
-    "prettier.printWidth": 100
+    "prettier.printWidth": 100,
+    "prettier.jsxBracketSameLine": true
 }
