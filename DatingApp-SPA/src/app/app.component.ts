@@ -9,7 +9,7 @@ import { User } from './_models/user';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'Dating App';
+  title = 'Kitty Dating';
   jwtHelper = new JwtHelperService();
 
   constructor(private authService: AuthService) {}
