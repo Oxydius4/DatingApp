@@ -13,7 +13,13 @@
         <button class="btn btn-success" (click)="sendLike(user.id)">
           <i class="fa fa-heart"></i>
         </button>
-        <button class="btn btn-success"><i class="fa fa-envelope"></i></button>
+        <button
+          class="btn btn-success"
+          [routerLink]="['/members/', user.id]"
+          [queryParams]="{ tab: 3 }"
+        >
+          <i class="fa fa-envelope"></i>
+        </button>
       </li>
     </ul>
   </div>

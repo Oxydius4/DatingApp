@@ -1,4 +1,4 @@
-import { Pagination, PaginatedResult } from 'src/app/_models/Pagination';
+import { Pagination, PaginatedResult } from 'src/app/_models/pagination';
 import { AlertifyService } from './../_services/alertify.service';
 import { ActivatedRoute } from '@angular/router';
 import { UserService } from './../_services/user.service';
